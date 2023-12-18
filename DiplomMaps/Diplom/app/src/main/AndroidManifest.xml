@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diplom_project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Diplomproject">
+        <activity
+            android:name=".Pon"
+            android:exported="false" />
+        <activity
+            android:name=".Obozn"
+            android:exported="false" />
+        <activity
+            android:name=".Nagr"
+            android:exported="false" />
+        <activity
+            android:name=".Uniprof"
+            android:exported="false" />
+        <activity
+            android:name=".MK"
+            android:exported="false" />
+        <activity
+            android:name=".Grom"
+            android:exported="false" />
+        <activity
+            android:name=".Mysh"
+            android:exported="false" />
+        <activity
+            android:name=".Monik"
+            android:exported="false" />
+        <activity
+            android:name=".Flash"
+            android:exported="false" />
+        <activity
+            android:name=".MorgSvet"
+            android:exported="false" />
+        <activity
+            android:name=".GenZV"
+            android:exported="false" />
+        <activity
+            android:name=".Cvet"
+            android:exported="false" />
+        <activity
+            android:name=".OpenPay"
+            android:exported="false" />
+        <activity
+            android:name=".OpenOsc"
+            android:exported="false" />
+        <activity
+            android:name=".OpenMult"
+            android:exported="false" />
+        <activity
+            android:name=".Trans"
+            android:exported="false" />
+        <activity
+            android:name=".Resistor"
+            android:exported="false" />
+        <activity
+            android:name=".Konder"
+            android:exported="false" />
+        <activity
+            android:name=".Rele"
+            android:exported="false" />
+        <activity
+            android:name=".Diod"
+            android:exported="false" />
+        <activity
+            android:name=".Kvarc"
+            android:exported="false" />
+        <activity
+            android:name=".PN"
+            android:exported="false" />
+        <activity
+            android:name=".ZakonOma"
+            android:exported="false" />
+        <activity
+            android:name=".PeremPost"
+            android:exported="false" />
+        <activity
+            android:name=".ADS"
+            android:exported="false" />
+        <activity
+            android:name=".Korotok"
+            android:exported="false" />
+        <activity
+            android:name=".RabotaToka"
+            android:exported="false" />
+        <activity
+            android:name=".APS"
+            android:exported="false" />
+        <activity
+            android:name=".VAX"
+            android:exported="false" />
+        <activity
+            android:name=".Sopr"
+            android:exported="false" />
+        <activity
+            android:name=".napr"
+            android:exported="false" />
+        <activity
+            android:name=".SilaToka"
+            android:exported="false" />
+        <activity
+            android:name=".Chteny"
+            android:exported="false" />
+        <activity
+            android:name=".Controly"
+            android:exported="false" />
+        <activity
+            android:name=".Remont"
+            android:exported="false" />
+        <activity
+            android:name=".Shemy"
+            android:exported="false" />
+        <activity
+            android:name=".Practica"
+            android:exported="false" />
+        <activity
+            android:name=".Teory"
+            android:exported="false" />
+        <activity
+            android:name=".activity_anketa"
+            android:exported="false" />
+        <activity
+            android:name=".Button_contact"
+            android:exported="false" />
+        <activity
+            android:name=".ButtonMe"
+            android:exported="false" />
+        <activity
+            android:name=".GuideMain"
+            android:exported="false" />
+        <activity
+            android:name=".CoursePage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

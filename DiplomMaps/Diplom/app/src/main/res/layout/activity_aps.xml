@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".APS">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Эквивалентное последовательное соединение"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/VAX1"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX1"
+                android:layout_width="360dp"
+                android:layout_height="384dp"
+                app:srcCompat="@drawable/vahvah1" />
+
+            <TextView
+                android:id="@+id/VAX2"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX2"
+                android:layout_width="348dp"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/vahvah2" />
+
+            <TextView
+                android:id="@+id/VAH3"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX3"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX3"
+                android:layout_width="333dp"
+                android:layout_height="161dp"
+                app:srcCompat="@drawable/vahvah3" />
+
+            <TextView
+                android:id="@+id/VAX4"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX4"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/imageVAX4"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/vahvah4" />
+
+            <TextView
+                android:id="@+id/VAH5"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX5"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX5"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/vahvah5" />
+
+            <TextView
+                android:id="@+id/VAX6"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX6"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX6"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/vahvah6" />
+
+            <TextView
+                android:id="@+id/VAX7"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX7"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX7"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/vahvah7" />
+
+            <TextView
+                android:id="@+id/VAX8"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX8"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX8"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/vahvah8" />
+
+            <TextView
+                android:id="@+id/VAX9"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX9"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageVAX9"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/vahvah9" />
+
+            <TextView
+                android:id="@+id/VAX10"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/VAX10"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

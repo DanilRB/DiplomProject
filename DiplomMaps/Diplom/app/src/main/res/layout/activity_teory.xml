@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teory">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Теория"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/SilaToka"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="178dp"
+                android:onClick="openSilaToka"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Teory"
+                app:srcCompat="@drawable/ic_silatoka"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/napr"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_napr"
+                android:onClick="openNapr"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/sopr"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_sopr"
+                android:onClick="openSopr"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/VAX"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_vax"
+                android:onClick="openVAX"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/ASP"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_aps"
+                android:onClick="openAPS"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/rabotaTok"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_rabota"
+                android:onClick="openRabotaToka"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/korotok"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_korotok"
+                android:onClick="openKorotok"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/ADS"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_ads"
+                android:onClick="openADS"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/PeremPost"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_perempost"
+                android:onClick="openPeremPost"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/ZakonOma"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_zakonoma"
+                android:onClick="openZakonOma"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/PN"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_pn"
+                android:onClick="openPN"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/kvarc"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_kvarc"
+                android:onClick="openKvarc"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/diod"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_diod"
+                android:onClick="openDiod"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/rele"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_rele"
+                android:onClick="openRele"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/konder"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_konder"
+                android:onClick="openKonder"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/resistor"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_resistor"
+                android:onClick="openResistor"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/transformator"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_trans"
+                android:onClick="openTransf"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

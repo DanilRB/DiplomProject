@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "512332963588",
+    "firebase_url": "https://basedatedigitalfix-default-rtdb.firebaseio.com",
+    "project_id": "basedatedigitalfix",
+    "storage_bucket": "basedatedigitalfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512332963588:android:ed7052fd0a52207d43ba51",
+        "android_client_info": {
+          "package_name": "com.example.diplom_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512332963588-vsvudpqne58k8054ecaplqau5cag0cmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwYy4ne19AWb7Dn0wxdc1r-YzKQZ8nLdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512332963588-vsvudpqne58k8054ecaplqau5cag0cmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

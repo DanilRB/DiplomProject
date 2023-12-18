@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sopr">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Сопротивление"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Sopr1"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/resistance1" />
+
+            <TextView
+                android:id="@+id/Sopr2"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr2"
+                android:layout_width="348dp"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/resistance2" />
+
+            <TextView
+                android:id="@+id/Sopr3"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr3"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr3"
+                android:layout_width="333dp"
+                android:layout_height="161dp"
+                app:srcCompat="@drawable/resistance3" />
+
+            <TextView
+                android:id="@+id/Sopr4"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr4"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/Sopr7"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr7"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr7"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance7" />
+
+            <TextView
+                android:id="@+id/Sopr8"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr8"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr8"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance8" />
+
+            <TextView
+                android:id="@+id/Sopr9"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr9"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr9"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance9" />
+
+            <TextView
+                android:id="@+id/Sopr10"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr10"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr10"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance10" />
+
+            <TextView
+                android:id="@+id/Sopr11"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr11"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr11"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance11" />
+
+            <TextView
+                android:id="@+id/Sopr12"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr12"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr12"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance12" />
+
+            <TextView
+                android:id="@+id/Sopr13"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr13"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr13"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance13" />
+
+            <TextView
+                android:id="@+id/Sopr14"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr14"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr14"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance14" />
+
+            <TextView
+                android:id="@+id/Sopr15"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/Sopr15"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSopr15"
+                android:layout_width="313dp"
+                android:layout_height="156dp"
+                app:srcCompat="@drawable/resistance15" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

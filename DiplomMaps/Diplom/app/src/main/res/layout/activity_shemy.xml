@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teory">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Схемы"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/Cvet"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="178dp"
+                android:onClick="openCvet"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Shemy"
+                app:srcCompat="@drawable/ic_cvet"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/morg"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:onClick="openSvet"
+                app:srcCompat="@drawable/ic_morgsvet"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            <ImageButton
+                android:id="@+id/genzv"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_genzv"
+                android:onClick="openGenZV"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

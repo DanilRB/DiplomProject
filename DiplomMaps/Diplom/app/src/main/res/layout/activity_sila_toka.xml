@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SilaToka">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="520dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Сила тока"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="518dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SilaToka1"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/SilaToka1"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSilaToka1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/silatoka1" />
+
+            <TextView
+                android:id="@+id/SilaToka2"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/SilaToka2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSilaToka2"
+                android:layout_width="348dp"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/silatoka2" />
+
+            <TextView
+                android:id="@+id/SilaToka3"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/SilaToka3"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSilaToka3"
+                android:layout_width="wrap_content"
+                android:layout_height="353dp"
+                app:srcCompat="@drawable/silatoka3" />
+
+            <TextView
+                android:id="@+id/SilaToka4"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/SilaToka4"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageSilaToka4"
+                android:layout_width="356dp"
+                android:layout_height="270dp"
+                app:srcCompat="@drawable/silatoka4" />
+
+            <TextView
+                android:id="@+id/SilaToka5"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/SilaToka5"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
